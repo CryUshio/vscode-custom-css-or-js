@@ -29,7 +29,7 @@
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active {
   position: relative;
   border-radius: 6px 6px 0 0;
-  background-color: rgba(0, 0, 0, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Tab item outside border */
@@ -46,18 +46,13 @@
 /* Tab item outside border */
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::before {
   left: -6px;
-  background: radial-gradient(circle at left top, transparent 70%, rgba(0, 0, 0, 0.2) 70%);
+  background: radial-gradient(circle at left top, transparent 70%, rgba(0, 0, 0, 0.1) 70%);
 }
 
 /* Tab item outside border */
 #workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
   right: -6px;
-  background: radial-gradient(circle at right top, transparent 70%, rgba(0, 0, 0, 0.2) 70%);
-}
-
-/* code header pwd container */
-#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-breadcrumbs {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: radial-gradient(circle at right top, transparent 70%, rgba(0, 0, 0, 0.1) 70%);
 }
 
 /* code header pwd */
