@@ -1,0 +1,66 @@
+
+/* 代码编辑区背景色 */
+#workbench\.parts\.editor {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Tab and action container */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container {
+  padding-top: 4px;
+  background-color: rgb(255, 255, 255, 0.03) !important;
+}
+
+/* Tab container */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container {
+  padding-left: 4px;
+}
+
+/* 滚动条 */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.scrollbar.horizontal {
+  display: none !important;
+}
+
+/* Tab item */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div {
+  border-radius: 6px 6px 0 0;
+}
+
+/* Tab item active */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active {
+  position: relative;
+  border-radius: 6px 6px 0 0;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Tab item outside border */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::before,
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 6px;
+  height: 6px;
+}
+
+/* Tab item outside border */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::before {
+  left: -6px;
+  background: radial-gradient(circle at left top, transparent 70%, rgba(0, 0, 0, 0.2) 70%);
+}
+
+/* Tab item outside border */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-and-actions-container > div.monaco-scrollable-element.mac > div.tabs-container > div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
+  right: -6px;
+  background: radial-gradient(circle at right top, transparent 70%, rgba(0, 0, 0, 0.2) 70%);
+}
+
+/* code header pwd container */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-breadcrumbs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* code header pwd */
+#workbench\.parts\.editor > div.content > div.grid-view-container > div > div > div > div.monaco-scrollable-element.mac > div.split-view-container > div > div > div.title.tabs.show-file-icons > div.tabs-breadcrumbs > div > div > div.monaco-breadcrumbs {
+  background-color: transparent !important;
+}
