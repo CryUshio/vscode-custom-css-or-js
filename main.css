@@ -1,4 +1,4 @@
-body>div.file-icons-enabled.monaco-workbench.mac.chromium.vs-dark.vscode-theme-defaults-themes-dark_plus-json>div.monaco-grid-view>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>.monaco-grid-branch-node {
+body>div.file-icons-enabled.monaco-workbench.chromium.vs-dark.vscode-theme-defaults-themes-dark_plus-json>div.monaco-grid-view>div>div>div.monaco-scrollable-element>div.split-view-container>div>.monaco-grid-branch-node {
   background-color: rgb(255, 255, 255, 0.03) !important;
 }
 
@@ -8,36 +8,36 @@ body>div.file-icons-enabled.monaco-workbench.mac.chromium.vs-dark.vscode-theme-d
 }
 
 /* Tab and action container */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container {
   padding-top: 4px;
   /* background-color: rgb(255, 255, 255, 0.03) !important; */
 }
 
 /* Tab container */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container {
   padding-left: 4px;
 }
 
 /* 滚动条 */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.scrollbar.horizontal {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.scrollbar.horizontal {
   display: none !important;
 }
 
 /* Tab item */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div {
   border-radius: 6px 6px 0 0;
 }
 
 /* Tab item active */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active {
   position: relative;
   border-radius: 6px 6px 0 0;
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Tab item outside border */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::before,
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::before,
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
   content: '';
   position: absolute;
   display: block;
@@ -47,30 +47,30 @@ body>div.file-icons-enabled.monaco-workbench.mac.chromium.vs-dark.vscode-theme-d
 }
 
 /* Tab item outside border */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::before {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::before {
   left: -6px;
   background: radial-gradient(circle at left top, transparent 70%, rgba(0, 0, 0, 0.1) 70%);
 }
 
 /* Tab item outside border */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element.mac>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div.tab.tab-actions-right.sizing-fit.has-icon.active::after {
   right: -6px;
   background: radial-gradient(circle at right top, transparent 70%, rgba(0, 0, 0, 0.1) 70%);
 }
 
 /* code header pwd */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-breadcrumbs>div>div>div.monaco-breadcrumbs {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-breadcrumbs>div>div>div.monaco-breadcrumbs {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* code container */
-#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div>div>div.editor-container {
+#workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container {
   background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 /* file tree item */
-#workbench\.view\.explorer>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element.mac>div.monaco-list-rows>div.monaco-list-row,
-#workbench\.view\.explorer>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element.mac>div.monaco-list-rows>div.monaco-list-row:active,
-#workbench\.view\.explorer>div>div>div.monaco-scrollable-element.mac>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element.mac>div.monaco-list-rows>div.monaco-list-row:focus {
+#workbench\.view\.explorer>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element>div.monaco-list-rows>div.monaco-list-row,
+#workbench\.view\.explorer>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element>div.monaco-list-rows>div.monaco-list-row:active,
+#workbench\.view\.explorer>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div.pane-body>div.explorer-folders-view.file-icon-themable-tree.show-file-icons.align-icons-and-twisties>div>div.monaco-scrollable-element>div.monaco-list-rows>div.monaco-list-row:focus {
   outline: none !important;
 }
