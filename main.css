@@ -26,6 +26,7 @@ body>div.file-icons-enabled.monaco-workbench.chromium.vs-dark.vscode-theme-defau
 /* Tab item */
 #workbench\.parts\.editor>div.content>div.grid-view-container>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.title.tabs.show-file-icons>div.tabs-and-actions-container>div.monaco-scrollable-element>div.tabs-container>div {
   border-radius: 6px 6px 0 0;
+  background: transparent !important;
 }
 
 /* Tab item active */
